@@ -3,29 +3,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Component</title>
-<style>
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-  <img src="img_avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>Arvind Singh</b></h4>
-    <p>Software Engineer</p>
-  </div>
-</div>
+    <div class='container'>
+        <div class='card'>
+            <div class='left'>
+                <img src="omega.png" alt="Omega Watch">
+            </div>
+            <div class='right'>
+                <h4>Preview</h4>
+                <h1>Omega <br> Seamaster Diver <br> 300M</h1>
+                <p>
+                    A luxury dive watch with a ceramic bezel and 18K white gold hands. Powered by the Omega Master Chronometer movement for precision and durability.
+                </p>
+                <div class="text-container">
+                    <span id="big-text">$5,200</span>
+                    <span id="small-text">$5,500</span>
+                </div>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
